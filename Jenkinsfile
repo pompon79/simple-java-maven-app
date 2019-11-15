@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('get repo') {
       steps {
-        git(url: 'https://github.com/jenkins-docs/simple-java-maven-app.git', branch: 'master')
+        git(url: 'https://github.com/pompon79/simple-java-maven-app.git', branch: 'master')
       }
     }
 
