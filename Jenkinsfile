@@ -9,7 +9,7 @@ pipeline {
 
     stage('Build') {
       steps {
-        sh '/var/jenkins_home/apache-maven-3.6.2/bin/mvn -B -DskipTests clean package'
+        sh 'mvn -B -DskipTests clean package'
       }
     }
 
